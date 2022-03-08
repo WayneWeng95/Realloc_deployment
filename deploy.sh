@@ -2,8 +2,7 @@
 
 sudo apt-get -y update && sudo apt-get -y upgrade
 
-
-sudo apt-get install -y make pkg-config gcc build-essential
+sudo apt-get install -y make pkg-config gcc build-essential python default-jre default-jdk
 
 cd redis-6.2.6/deps/jemalloc/
 
@@ -17,3 +16,4 @@ mv configure.sh configure
 
 cd -
 
+mkdir results
