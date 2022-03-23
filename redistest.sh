@@ -42,6 +42,8 @@ echo "=======YCSB start========="
 
 ./bin/ycsb run redis -s -P workloads/workloadf -threads 1 -p "redis.host=127.0.0.1" -p "redis.port=6379" > ../../results/YCSB_Modified_f.txt
 
+./bin/ycsb run redis -s -P workloads/workloadg -threads 1 -p "redis.host=127.0.0.1" -p "redis.port=6379" > ../../results/YCSB_Modified_g.txt
+
 echo "=======YCSB end========="
 
 cd ../..
@@ -89,6 +91,8 @@ echo "=======YCSB start========="
 ./bin/ycsb run redis -s -P workloads/workloade -threads 1 -p "redis.host=127.0.0.1" -p "redis.port=6379" > ../../results/YCSB_Stock_e.txt
 
 ./bin/ycsb run redis -s -P workloads/workloadf -threads 1 -p "redis.host=127.0.0.1" -p "redis.port=6379" > ../../results/YCSB_Stock_f.txt
+
+./bin/ycsb run redis -s -P workloads/workloadg -threads 1 -p "redis.host=127.0.0.1" -p "redis.port=6379" > ../../results/YCSB_Stock_g.txt
 
 echo "=======YCSB end========="
 
