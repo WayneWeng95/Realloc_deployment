@@ -76,6 +76,8 @@ echo "=======Redis end========="
 
 cd ../
 
+./src/cleaning.sh
+
 cd YCSB/ycsb-0.17.0
 
 echo "=======YCSB start========="
