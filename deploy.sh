@@ -2,7 +2,7 @@
 
 sudo apt-get -y update && sudo apt-get -y upgrade
 
-sudo apt-get install -y make pkg-config gcc build-essential python default-jre default-jdk
+sudo apt-get install -y make pkg-config gcc build-essential python default-jre default-jdk cmake
 
 cd redis-6.2.6/deps/jemalloc/
 
