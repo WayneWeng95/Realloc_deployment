@@ -22,6 +22,8 @@ curl -O --location https://github.com/Kitware/CMake/releases/download/v3.23.0/cm
 
 tar xfvz cmake-3.23.0.tar.gz
 
+cd cmake-3.23.0.tar.gz 
+
 ./bootstrap
 
 make 
@@ -29,3 +31,5 @@ make
 sudo make install
 
 PATH="${PATH:+${PATH}:}/usr/local/share/bin"
+
+cd -
