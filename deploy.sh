@@ -34,4 +34,4 @@ sudo make install
 
 PATH="${PATH:+${PATH}:}/usr/local/share/bin"
 
-cd -
+cd ~
