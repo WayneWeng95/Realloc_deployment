@@ -25,6 +25,9 @@ recordcount=100000
 operationcount=100000
 workload=site.ycsb.workloads.CoreWorkload
 
+fieldlengthdistribution=constant     # constant, uniform, zipfian
+fieldlength=4096
+
 readallfields=true
 
 readproportion=0.2
