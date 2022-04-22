@@ -25,7 +25,8 @@ recordcount=100000
 operationcount=100000
 workload=site.ycsb.workloads.CoreWorkload
 
-fieldlength=4096
+fieladcount=10
+fieldlength=40960
 
 readallfields=true
 
@@ -36,4 +37,6 @@ insertproportion=0.5
 readmodifywriteproportion=0.3
 
 requestdistribution=zipfian
+
+hdrhistogram.fileoutput=true
 
