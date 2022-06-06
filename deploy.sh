@@ -24,7 +24,7 @@ tar xfvz cmake-3.23.0.tar.gz
 
 rm cmake-3.23.0.tar.gz
 
-cd cmake-3.23.0.tar.gz 
+cd cmake-3.23.0
 
 ./bootstrap
 
