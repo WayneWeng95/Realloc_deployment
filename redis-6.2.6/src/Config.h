@@ -1,12 +1,13 @@
-#define ENABLE_PREDICTION 0
-#define ENABLE_UNSHRINK_NOW 0 // need enable prediction first
-// #define MMAP_IN_SMALLSIZE 0
+#define ENABLE_PREDICTION 1
+#define ENABLE_UNSHRINK_NOW 1 // need enable prediction first
+#define MMAP_IN_SMALLSIZE 1
 #define ENABLE_X2_ENHANCEMENT 1 // need enable prediction first
 #define ENABLE_HUGLETLB 1       // need additional checking before enable this
+#define ENABLE_SIZESAVE 0       //WIP
 
-#define HEADLESS 16384     // 4K
-#define MAPPING_POINT 16384 // 16K
-#define SWITCH_POINT 131072 // 128K
+#define AGGRESIVE 0
+#define MAPPING_POINT 16
+#define SWITCH_POINT 128
 
 #define MALLOC_HOTLEVEL 40
 #define MMAP_HOTLEVEL 20
@@ -16,6 +17,9 @@
 #define UNSHRINK_THRESHOULD 7
 
 #define SMALL_SIZE_COPY_INCREASE 7
+
+#define HUGE_PAGE_SIZE 2 * 1024 * 1024 // 2048KB as system default
+#define MID_PAGE_SIZE 16 * 1024
 
 // need to check the configuation first.  using: cat /proc/filesystems
 // When the configure available, check the
