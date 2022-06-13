@@ -43,7 +43,7 @@
 #define MID_PAGE_ALIGN(addr) ALIGN(addr, MID_PAGE_SIZE)
 #define X2_ALIGN(addr) ALIGN(addr, X2_EH_SIZE)
 
-jmp_buf env;
+//jmp_buf env;
 
 void *_malloc(size_t);
 
