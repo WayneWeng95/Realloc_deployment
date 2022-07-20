@@ -12,7 +12,7 @@ echo "--modified--"
 
 cd redis-6.2.6/
 
-make
+make USE_TCMALLOC=YES
 
 ./src/redis-server --daemonize yes
 
